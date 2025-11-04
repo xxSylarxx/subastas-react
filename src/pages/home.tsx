@@ -33,7 +33,8 @@ export default function HomePage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url("https://readdy.ai/api/search-image?query=Modern%20elegant%20auction%20house%20interior%20with%20sophisticated%20bidding%20atmosphere%2C%20luxury%20business%20environment%2C%20professional%20lighting%2C%20contemporary%20design%20with%20warm%20ambient%20lighting%2C%20premium%20auction%20setting%20with%20clean%20modern%20architecture&width=1920&height=1080&seq=hero-auction-bg&orientation=landscape")' }}>
+      {/* <section className="relative min-h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url("https://readdy.ai/api/search-image?query=Modern%20elegant%20auction%20house%20interior%20with%20sophisticated%20bidding%20atmosphere%2C%20luxury%20business%20environment%2C%20professional%20lighting%2C%20contemporary%20design%20with%20warm%20ambient%20lighting%2C%20premium%20auction%20setting%20with%20clean%20modern%20architecture&width=1920&height=1080&seq=hero-auction-bg&orientation=landscape")' }}> */}
+      <section className="relative min-h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url("./public/img/fondo2.png")' }}>
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative z-10 container mx-auto px-4 text-center text-white">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
@@ -67,7 +68,7 @@ export default function HomePage() {
               </Link>
             </Button>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+         {/*  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
               <div className="text-4xl font-bold mb-2" style={{ color: 'rgb(59, 151, 151)' }}>127k+</div>
               <div className="text-gray-300">Usuarios Activos</div>
@@ -80,7 +81,7 @@ export default function HomePage() {
               <div className="text-4xl font-bold mb-2" style={{ color: 'rgb(59, 151, 151)' }}>99.2%</div>
               <div className="text-gray-300">Satisfacción</div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
