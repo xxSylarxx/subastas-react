@@ -1,0 +1,29 @@
+# Dependencias
+/node_modules
+
+# Directorio de build (generado por Vite)
+/dist
+/build
+/out
+
+# Archivos de logs
+*.log
+
+# Archivos de bloqueo
+# Es estándar INCLUIR package-lock.json o yarn.lock
+# para asegurar la consistencia de las dependencias.
+# Si estás usando yarn, podrías excluir yarn.lock
+# pero generalmente se recomienda INCLUIRLO.
+
+# Directorios de caché y temporales
+.DS_Store
+Thumbs.db
+/temp
+/cache
+.env
+
+# Archivos de configuración de IDE (opcional, pero útil)
+.vscode/
+
+# Ignorar archivos locales de configuración de Vite
+vite.config.local.ts
