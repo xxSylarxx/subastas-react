@@ -5,6 +5,7 @@ import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 import HomePage from '@/pages/home';
 import AuctionsPage from '@/pages/auctions';
+import AuctionDetailPage from '@/pages/auction-detail';
 import HowItWorksPage from '@/pages/how-it-works';
 import NotFoundPage from '@/pages/not-found';
 
@@ -17,6 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/auctions" element={<AuctionsPage />} />
+            <Route path="/auction/:id" element={<AuctionDetailPage />} />
             <Route path="/how-it-works" element={<HowItWorksPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>

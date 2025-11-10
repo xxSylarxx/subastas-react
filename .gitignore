@@ -5,6 +5,7 @@
 /dist
 /build
 /out
+tsconfig.json
 
 # Archivos de logs
 *.log

@@ -51,7 +51,7 @@ export default function HowItWorksPage() {
     },
     {
       question: "¿Qué pasa si no gano?",
-      answer: "Si no ganas una subasta, puedes usar tus créditos restantes en otras subastas. Además, ofrecemos descuentos especiales para comprar productos al precio retail si participaste activamente."
+      answer: "Si no ganas una subasta, puedes usar tus créditos restantes en otras subastas. Además, ofrecemos descuentos especiales para comprar productos al precio normal si participaste activamente."
     },
     {
       question: "¿Cómo recibo mi producto si gano?",
@@ -146,7 +146,7 @@ export default function HowItWorksPage() {
                 <h3 className="text-2xl font-bold mb-4">iPhone 15 Pro Max 256GB</h3>
                 <div className="space-y-4">
                   <div className="flex justify-between">
-                    <span className="text-gray-600 dark:text-gray-400">Precio retail:</span>
+                    <span className="text-gray-600 dark:text-gray-400">Precio normal:</span>
                     <span className="font-semibold">$1,199.00</span>
                   </div>
                   <div className="flex justify-between">

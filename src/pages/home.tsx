@@ -108,7 +108,7 @@ export default function HomePage() {
                   <div className="flex justify-between items-center mb-4">
                     <div>
                       <p className="text-sm text-gray-600 dark:text-gray-400">Puja actual</p>
-                      <p className="text-2xl font-bold text-green-600">${auction.currentBid}</p>
+                      <p className="text-2xl font-bold text-green-600">S/{auction.currentBid}</p>
                     </div>
                     <div className="text-right">
                       <p className="text-sm text-gray-600 dark:text-gray-400">Tiempo restante</p>
